@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josip Barić</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <a href="#header">Home</a>
+            <a href="#about-me">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact-me">Contact me</a>
+        </nav>
+    </header>
+    <section class="welcome">
+        <div class="picture">
+            <img src="./images/picture-of-me.jpeg" id="picture-of-self">
+        </div>
+        <div class="welcome-text">
+            <h1>Welcome to my page</h1>
+            <h2>I'm on a journey to become a web-developer</h2>
+            <div class='social-media'>
+                <a href="https://www.facebook.com/josip.baric.7370/" class="fa fa-facebook" id="fb" target="_blank"></a>
+                <a href="https://www.instagram.com/josip46" class="fa fa-instagram" id="ig" target="_blank"></a>
+                <a href="https://github.com/josip46" class="fa fa-github" id="gh" target="_blank"></a>
+            </div>
+        </div>
+    </section>
+    <section class="about-me" id="about-me">
+        <h1 class="about-text">About me</h1>
+        <p class="about-p">Hey there! 👋 I'm Josip, a lifelong computer enthusiast who turned that childhood fascination into a passion for web development. From early days of playing video games to diving into the intricate world of coding, I've found my calling in crafting digital experiences on the web.
+            Driven by an insatiable curiosity and a deep-seated love for all things tech, I've embarked on a journey to become a web developer. My enthusiasm is not just about writing lines of code; it's about the magic that happens when creativity meets functionality.
+            In a world where everyone is racing to the future, I'm carving my own path with a unique blend of passion and determination. Web development, to me, is more than just a skill; it's a canvas where ideas come to life, and user experiences are transformed.
+            Join me on this exciting adventure as I navigate the ever-evolving landscape of web development, fueled by a genuine love for the craft. Together, let's build a digital world that's not just functional, but a delight to explore.
+            Ready to turn pixels into purpose and code into captivating experiences. Let's create something extraordinary!</p>
+    </section>
+    <hr>
+    <section>
+        <div><h2 id="tech">Technologies that I am comfortable with using:</h2></div>
+        <div id="icon-container">
+            <figure class="item">
+                <img src="./images/python-icon.png" class="icon">
+                <figcaption class="caption">Python</figcaption>
+            </figure>
+            <figure class="item">
+                <img src="./images/html-icon.png" class="icon">
+                <figcaption class="caption">HTML</figcaption>
+            </figure>
+            <figure class="item">
+                <img src="./images/css-icon.png" class="icon">
+                <figcaption class="caption">CSS</figcaption>
+            </figure>
+        </div>
+    </section>
+    <hr>
+    <section id="projects">
+        <h2 id="projects-text">Projects:</h2>
+        <figure class="item"></figure>
+            <img src="./images/under-construction.jpg" id="under-construction">
+            <figcaption class="caption">Currently working on it 👷🏻🔨🔨</figcaption>
+        </figure>
+    </section>
+    <hr>
+    <section id="contact-me">
+        <div id="form">
+            <h2 id="cm-text">Contact me <a class="fa fa-envelope" id="mail-icon"></a></h2>
+            <form
+  action="https://formspree.io/f/mjvqzngr"
+  method="POST"
+>
+                <label>Name: </label><input type="text" id="name" name="name" placeholder="Your name" required>
+                <br>
+                <label>Email: </label><input name="email" type="email" id="email" placeholder="your@email.adress.com" required>
+                <br>
+                <label>Your message: </label>
+                <br>
+                <textarea type="text-area" name="text" id="msg" placeholder="Write your message here..." rows="5" cols="70" required></textarea>
+                <br>
+                <input type="submit" name="button" value="Send message" id="mail-button" /> 
+            </form>
+        </div>
+        <div>
+            <img src="./images/mail.jpg" id="mail-pic">
+        </div>
+    </section>
+    <footer>
+        <h3>INFO:</h3>
+        <h4>Location: Stari Log, Slovenia</h4>
+        <h4>Email: josip1990x@gmail.comm</h4>
+        <h4>Phone number: +386 41 316 371</h4> 
+    </footer>
+</body>
+</html>

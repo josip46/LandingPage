@@ -1,0 +1,233 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+}
+
+header {
+    background-color: #101820;
+    height: 36px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 36px;
+    vertical-align: middle;
+}
+
+nav a {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+nav a:last-child {
+    margin-right: 100px;
+}
+
+a:hover {
+    background-color: #1e2e3d;
+    border-left: 3px solid;
+}
+
+.welcome {
+    background-color: #FEE715;
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#picture-of-self {
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-right: 30px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+    color: #1e2e3d;
+}
+
+h2 {
+    font-size: 20px;
+    color: #1e2e3d;
+    padding-bottom: 24px;
+}
+
+.welcome .welcome-text .social-media a {
+  font-size: 30px;
+  color: #101820;
+  text-decoration: none; 
+  padding-right: 20px; 
+}
+
+.welcome .welcome-text .social-media a:hover {
+    background-color: #FEE715;
+    border: 0;
+    transform: scale(1.1);
+}
+
+.about-me {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.about-text {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.about-p {
+    padding-left: 100px;
+    padding-right: 500px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .about-p {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+  }
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+        to right, 
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0.75), 
+        rgba(0, 0, 0, 0));
+}
+
+#tech {
+    text-align: center;
+    padding-top: 40px;
+    color: black;
+}
+
+.icon {
+    width: 70px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 16px;
+}
+
+#icon-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+#projects {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+#under-construction {
+    width: 500px;
+    padding-bottom: 20px;
+}
+
+#projects-text {
+    color: black;
+    font-size: 26px;
+}
+
+#contact-me {
+    margin: 40px 50px 70px 90px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#form {
+    line-height: 45px;
+}
+
+#mail-icon:hover {
+    background-color: white;
+    border: none;
+}
+
+#cm-text {
+    font-size: 45px;
+    padding-bottom: 0px;
+}
+
+input {
+    margin-left: 12px;
+}
+
+#mail-button {
+    margin-left: 0px;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    color: white;
+    background-color: orangered;
+    border:none
+}
+
+#mail-button:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+@keyframes mails {
+    0% {
+        transform: rotate(-2deg);
+    }
+    50% {
+        transform: rotate(2deg);
+    }
+    100% {
+        transform: rotate(-2deg);
+    }
+}
+
+#mail-pic {
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 10%;
+    animation: mails 2.5s linear infinite;
+}
+
+footer {
+    padding-left: 50px;
+    padding-top: 1px;
+    height: 90px;
+    background-color: #FEE715;
+    line-height: 8px;
+}
+
+h3 {
+    font-size: 11px;
+}
+
+h4 {
+    font-size: 10px;
+}
